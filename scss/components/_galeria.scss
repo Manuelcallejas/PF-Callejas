@@ -1,0 +1,26 @@
+@import url(../utilidad/_variables.scss);
+.fondo-galery {
+    width: 100%;
+    background-color: rgba(123, 128, 128, 0.103);
+
+    .galeria-img {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        background-color: rgba(116, 111, 111, 0.438);
+        
+
+        .imagenes {
+            width: 400px;
+            padding: 1rem;
+            &:hover{
+                transform: translate(-15px);
+            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+            }
+            
+        }
+    }
+}
